@@ -1,0 +1,48 @@
+/* larger.css */
+@media (min-width: 600px) {
+    header {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #003d5b;
+    }
+  
+    #menu {
+      display: none;
+    }
+  
+    #nav-links {
+      display: flex !important;
+    }
+  
+    #nav-links li {
+      margin: 0 1rem;
+    }
+  
+    main {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 2rem;
+    }
+  
+    section#certificate-section {
+      grid-column: 1 / -1;
+    }
+  
+    .filter-buttons {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    .course-card {
+      display: inline-block;
+      width: calc(50% - 1rem);
+      vertical-align: top;
+    }
+  }
+  
