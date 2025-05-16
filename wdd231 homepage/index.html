@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WDD 231 Home Page of Rubia M. Francesco" />
+  <meta name="author" content="Rubia M. Francesco" />
+  <title>Rubia M. Francesco | WDD 231</title>
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/small.css" />
+  <link rel="stylesheet" href="styles/larger.css" media="(min-width: 600px)" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/profile.jpg" alt="Rubia M. Francesco" />
+    <span>Rubia M. Francesco</span>
+  </header>
+
+  <nav>
+    <button id="menu">&#9776;</button>
+    <ul id="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="chamber/">Chamber</a></li>
+      <li><a href="final/">Final</a></li>
+      <li><a href="https://github.com/">GitHub Profile</a></li>
+      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Home</h1>
+
+    <section>
+      <h2>Course Work</h2>
+      <ul>
+        <li>WDD 130 - Web Fundamentals</li>
+        <li>WDD 231 - Frontend Web Development</li>
+        <li>CSE 210 - Programming with Classes</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Toloria, Madagascar</h2>
+      <img src="images/baobab-trees.jpg" alt="Baobab Trees">
+      <figcaption>Baobab Trees</figcaption>
+    </section>
+
+    <section id="certificate-section">
+      <h2>Web and Computer Programming Certificate</h2>
+      <div class="filter-buttons">
+        <button data-filter="all">All</button>
+        <button data-filter="CSE">CSE</button>
+        <button data-filter="WDD">WDD</button>
+      </div>
+      <div id="courses-container"></div>
+      <p>Total Credits: <span id="total-credits">0</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> 🌺 Rubia Magdelena Francesco 🌺 Madagascar</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
