@@ -1,0 +1,105 @@
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  /* Sections */
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  main {
+    display: block;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Paragraphs and lists */
+  p, ul, ol {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Links */
+  a {
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    display: block;
+  }
+  
+  /* Forms */
+  button, input, select, textarea {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    color: inherit;
+    line-height: 1.15;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+  
+  textarea {
+    resize: vertical;
+    overflow: auto;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    padding: 0;
+    text-align: left;
+  }
+  
+  /* Accessibility */
+  [hidden] {
+    display: none !important;
+  }
+  
+  /* Media */
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  
